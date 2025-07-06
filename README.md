@@ -31,3 +31,6 @@ Socks5代理采集与使用
 ## 项目地址
 
 https://github.com/G-pledge/Dproxy/
+
+## 更新记录
+20250706  增加fofa查询语句，以增加可用代理数量
