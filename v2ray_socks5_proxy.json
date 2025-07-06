@@ -1,0 +1,31 @@
+{
+  "inbounds": [
+    {
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "ip": "127.0.0.1",
+        "udp": false
+      }
+    }
+  ],
+  "log": {
+    "access": "none",
+    "error": "none",
+    "level": "none"
+  },
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "113.125.81.118",
+            "port": 20002
+          }
+        ]
+      }
+    }
+  ]
+}
